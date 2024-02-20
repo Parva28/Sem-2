@@ -1,0 +1,22 @@
+#a{
+	background-color: rgb(158,10,101);
+}
+footer{
+
+	background-color: cyan;
+}
+table{
+	background-color: orange; 
+}
+.a{
+	background-color: orange;
+}
+input{
+	background-color: black;
+}
+textarea{
+	background-color: black;
+}
+fieldset{
+	background-color: aqua;
+}
