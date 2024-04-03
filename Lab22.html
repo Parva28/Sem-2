@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Lab22</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+                <div class="col p-4" style="color: purple;">
+                    <div class="text-center display-1">
+                        <i class="bi bi-bootstrap-fill"></i>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col">
+                        <div class="display-4 text-center">Check Out Form</div>
+                        <p class="text-center">Below is an example foe built entirely with Bootstraps form controls. Each required group for has
+                            
+                            a validation state that can be triggered by attempting to submit the form without completing it.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <!-- <div class="mb-3">
+                    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                    
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+                </div> -->
+        </div>
+        <div class="row ">
+            <div class="col-8">
+                <form class="row g-3">
+                    <div class="display-5">Billing Adress</div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="inlineFormInputGroupUsername">Username</label>
+                        <div class="input-group">
+                          <div class="input-group-text">@</div>
+                          <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <label for="inputAddress" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputAddress" placeholder="you@example.com">
+                      </div>   
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address(optional)</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Country</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Shipping adress is the same as my billing adress
+                        </label>
+                      </div>
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Save this information for next time
+                        </label>
+                      </div>
+                      <hr>
+                    
+                    
+                    <div class="display-6">Payment</div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Name on card-header</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                        <p class="text-muted">full name as display on card</p>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Name on credit card number</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="inputEmail4" class="form-label">Expiration</label>
+                            <input type="text" class="form-control" id="inputEmail4">
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputEmail4" class="form-label">CVV</label>
+                            <input type="text" class="form-control" id="inputEmail4">
+                            
+                          </div>
+                         
+                    </div>
+                    
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <hr>
+                            <button type="submit" class="btn btn-primary">Continue to checkout</button>
+                        </div>
+                        
+                      </div>
+                  </form>
+            </div>
+            <div class="col-4">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="display-5 text-muted">Your Cart</div>
+                    </div>
+                    <div class="col-6 text-end">
+                        <i class="bi bi-3-square-fill display-6 text-muted"></i>
+                    </div>
+                    <div class="card" >
+                        <!-- <div class="card-header">
+                          Featured
+                        </div> -->
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <div class="text-start">
+                                <p>Product Name </p>
+                                
+                            </div>
+                            <div class="text-end mb-4 mt-0">
+                                <p>$12</p>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="text-start">
+                                <p>Product Name </p>
+                                
+                            </div>
+                            <div class="text-end mb-4 mt-0">
+                                <p>$12</p>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="text-start text-success">
+                                <p>Product Name </p>
+                                
+                            </div>
+                            <div class="text-end mb-4 mt-0">
+                                <p>$12</p>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="text-start">
+                                <p>Product Name </p>
+                                
+                            </div>
+                            <div class="text-end mb-4 mt-0">
+                                <p>$12</p>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="text-start">
+                                <p>Product Name </p>
+                                
+                            </div>
+                            <div class="text-end mb-4 mt-0">
+                                <p>$12</p>
+                            </div>
+                          </li>
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Promo Code" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Reedem</button>
+                          </div>
+                        </ul>
+                      </div> 
+                </div>
+                 
+            </div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
